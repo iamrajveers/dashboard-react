@@ -8,7 +8,7 @@ function App() {
     <>
      
 
-     <h1 className="bg-red-800 p-80 m-40 text-2xl">hh</h1>
+     <h1 className="bg-red-800 p-80 m-40 text-2xl">HELLo</h1>
 
 
         <Sidebar />     
