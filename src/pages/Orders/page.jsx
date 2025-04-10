@@ -6,7 +6,8 @@ const Orders = () => {
     { id: 2, customer: "Jane Smith", product: "Shoes", status: "Delivered", date: "2025-04-08" },
     { id: 3, customer: "Alice Johnson", product: "Backpack", status: "Shipped", date: "2025-04-07" },
   ];
-
+  
+  
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Orders</h1>
@@ -65,5 +66,7 @@ const Orders = () => {
     </div>
   );
 };
+
+
 
 export default Orders;

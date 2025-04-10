@@ -1,17 +1,15 @@
-import react from "react"
+import react from "react";
 
-const Navbar=()=>{
- 
-    return (
-        <div className="bg-gray-100 text-gray-900 border-b border-gary-300 p-4 flex items-center">  
-            
-            
-           <h1> Dashboard </h1> 
-                       
-         </div>
+const Navbar = () => {
+  return (
+    <div className="bg-gray-100 text-gray-900 border-b border-gary-300 p-4 flex items-center">
+      <h1> Dashboard </h1>
+    </div>
+  );
+};
 
-    )
-
-}
 
 export default Navbar;
+
+
+

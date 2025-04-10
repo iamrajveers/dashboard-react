@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const CustomerDetails= () => {
   const customers = [
     { id: 1, name: "John Doe", email: "john@example.com", joined: "2023-09-01", status: "Active" },
@@ -8,6 +9,7 @@ const CustomerDetails= () => {
   ];
 
   return (
+
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Customers</h1>
 
@@ -18,11 +20,13 @@ const CustomerDetails= () => {
           className="border border-gray-300 rounded px-4 py-2 w-full md:w-1/3"
         />
 
+
         <select className="border border-gray-300 rounded px-4 py-2">
           <option>All Status</option>
           <option>Active</option>
           <option>Inactive</option>
         </select>
+
       </div>
 
       <div className="overflow-x-auto bg-white rounded-lg shadow-md">
@@ -64,3 +68,4 @@ const CustomerDetails= () => {
 };
 
 export default CustomerDetails;
+

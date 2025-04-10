@@ -1,27 +1,19 @@
 import "./index.css";
-import Sidebar from "./components/Sidebar";
+ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
-// import Orders from "./components/Orders";
-// import Customers from "./components/Customers";
-// import Users from "./components/Users";
-// import Products from "./components/Products";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Orders from "./pages/orders/page";
 import Users from    "./pages/Users/UserDetails"
 import Customers from "./pages/Customers/CustomerDetails";
 import Products from "./pages/Products/ProductDetails";
-
-
 
 function App() {
   return (
     <Router>
       <div className="flex">
         <Sidebar />
-
+        {/* <Sidebar2 /> */}
         <div className="grow ml-16 md:ml-64 h-full lg:h-screen bg-gray-100 text-gray-900">
           <Navbar />
 
@@ -39,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+
