@@ -5,7 +5,7 @@ export const dataLine = {
   datasets: [
     {
       label: 'Sales Data',
-      data: [65, 59, 80, 81, 56],
+      data: [65, 89, 80, 81, 56],
       borderColor: 'rgba(75,192,192,1)',
       backgroundColor: 'rgba(75,192,192,0.2)',
       fill: true,

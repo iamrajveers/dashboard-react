@@ -5,7 +5,7 @@ import { FaTachometerAlt,  FaShoppingBag, FaBox, FaUser, FaUsers } from "react-i
 const Sidebar = () => {
   return (
     <div className="bg-gray-100 text-gray-900 h-screen px-4 fixed w-16 md:w-64 border-r border-gray-300">
-      <h1 className="text-3xl font-bold hidden md:block mt-5 text-center">SW SHOP</h1>
+      <h1 className="text-3xl font-bold hidden md:block mt-5 text-center">SWE SHOP</h1>
 
       <ul className="flex flex-col mt-5 text-xl space-y-1">
         <Link to="/" className="flex items-center py-3 px-2 space-x-4 hover:rounded cursor-pointer hover:bg-blue-600 hover:text-white">
